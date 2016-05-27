@@ -2,17 +2,19 @@
     "name": "twilio",
     "version": "1.0.0",
     "description": "This module is used to send sms",
-    "main": "twilioserver.js",
+    "main": "app.js",
     "dependencies": {
         "twilio": "*",
         "express": "*",
-        "bodyParser": "*"
+        "bodyParser": "*",
+        "mocha": ">= 0.9.0",
+        "chai": ">= 0.1.6",
+        "should": "*"
 
     },
     "devDependencies": {},
     "scripts": {
-        "test": "\"echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1\""
-    },
-    "author": "neethu",
-    "license": "ISC"
+        "test": "node_modules/.bin/mocha -w"
+    }
+
 }
