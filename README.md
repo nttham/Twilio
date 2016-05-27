@@ -9,7 +9,7 @@ This module is used to send SMS using twilio
 
 ```javascript
 
-sendgrid.sendSms({
+twilio.sendSms({
     "accountSID": "r8skU2912a",
     "authToken":"BPRV4rL9N7jM9272",
     "to": "PHONE_NO",
