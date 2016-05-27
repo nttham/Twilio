@@ -12,7 +12,7 @@ This module is used to send SMS using twilio
 sendgrid.sendSms({
     "accountSID": "r8skU2912a",
     "authToken":"BPRV4rL9N7jM9272",
-    "to": "PHONE_NO,
+    "to": "PHONE_NO",
     "from": "PHONE_NO",
     "body": "My first sms"
     }, function(err, json) {
